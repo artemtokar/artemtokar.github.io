@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1064px;
+    height: 100%;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    box-shadow: 0 5px 5px 0 #000;
+}
+
+/*header*/
+
+.logo1 {
+    display: inline-block;
+    margin-left: 46px;
+    margin-top: 50px;
+}
+
+.menu1 {
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-top: 40px;
+    background: linear-gradient(to top, #434343, #5e5e5e);
+}
+
+.menu1>li {
+  display: inline-block;
+  height: 40px;
+}
+
+.menu1 a {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu1 li:first-child {
+  width: 142px;
+}
+
+.menu1 li:first-child>a {
+  padding-left: 22px;
+}
+
+.menu1 li:nth-child(2) {
+  width: 100px;
+}
+
+.menu1 li:nth-child(2)>a {
+  padding-left: 22px;
+}
+
+.menu1 li:nth-child(3) {
+  width: 160px;
+}
+
+.menu1 li:nth-child(3)>a {
+  padding-left: 62px;
+}
+
+.menu1 li:last-child {
+  width: 100px;
+}
+.menu1 li:last-child>a {
+  padding-left: 20px;
+}
+
+.menu1 a:hover {
+    background-color: #3c3c3c;
+}
+
+
+/*central box*/
+
+.central {
+    margin-top: 40px;
+    height: 400px;
+}
+
+
+/*side-bar*/
+
+.side-bar {
+    float: left;
+    margin-left: 46px;
+}
+
+.side-bar li {
+    color: #444;
+    display: block;
+    width: 228px;
+    height: 40px;
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+}
+
+.side-bar li:last-child {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.side-bar a {
+  display: block;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left: 22px;
+  cursor: pointer;
+}
+
+.side-bar a:hover {
+    color: black;
+    padding-left: 35px;
+}
+
+
+/*imidge-velo*/
+
+.velo-box {
+    display: block;
+    float: left;
+    width: 680px;
+    height: 400px;
+    margin-left: 60px;
+    border: 1px solid #c8c8c8;
+}
+
+.velo-box_img {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+
+/*text*/
+
+.text {
+    width: 620px;
+    margin-left: 365px;
+    margin-top: 35px;
+}
+
+.text>p {
+    font-size: 13px;
+    font-family: Myriad Pro, sans-serif;
+    color: #444;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 974px;
+    background-color: #e1e1e1;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 46px;
+}
+
+li {
+    display: inline-block;
+    height: 40px;
+
+}
+ .footer a {
+   display: inline-block;
+   margin-top: 10px;
+   margin-right: 90px;
+   margin-left: 22px;
+ }
+
+ .footer_link:hover  {
+   text-decoration: underline;
+   cursor: pointer;
+ }
