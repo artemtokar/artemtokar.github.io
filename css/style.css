@@ -1,0 +1,213 @@
+body {
+    background: linear-gradient(to bottom, #138aa7,
+       #138aa7 66px, #5ef0ff 66px,
+       #fdfeff 212px, #40c5d3 212px, #0c739f 1250px);
+    }
+
+.wrapper {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1000px;
+    height: 100%;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+}
+
+
+/*header*/
+
+.header {
+    width: 1000px;
+    height: 172px;
+    background-color: white;
+}
+
+.logotop {
+    display: block;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.asiatrip {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.contact {
+    float: right;
+    text-align: left;
+    color: #128aa7;
+    margin-top: 10px;
+    margin-right: 32px;
+    margin-bottom: 15px;
+}
+
+.contact h4 {
+    font-weight: bold;
+}
+
+h4, li {
+    padding-bottom: 5px;
+}
+
+.countries {
+    clear: both;
+}
+
+.countries a {
+    display: block;
+    float: right;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.countries a figcaption {
+    font-size: 10px;
+    font-family: Tahoma, sans-serif;
+    color: #128aa7;
+}
+
+.countries a figcaption span {
+    border-bottom: 1px solid #128aa7;
+}
+
+.fotomain {
+    border-bottom: 3px solid #cacbcb;
+}
+
+
+/*navigation bar*/
+
+.nav {
+    position: relative;
+    width: 1000px;
+    height: 30px;
+    background-color: #353535;
+}
+
+.nav:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.nav>ul>li {
+    float: left;
+    width: 142px;
+    height: 25px;
+    color: white;
+    padding-top: 5px;
+}
+
+.nav>ul>li>a {
+    display: block;
+    margin: 0;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_submenu {
+    cursor: pointer;
+    padding-top: 5px;
+}
+.triangle {
+  padding-top: 9px;
+  padding-left: 5px;
+}
+
+/*dropping down menu*/
+
+.trip {
+    background-color: #353535;
+    width: 150px;
+    position: absolute;
+    top: 27px;
+    left: 140px;
+}
+
+.trip a, .servis a, .partner a {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.servis {
+    background-color: #353535;
+    width: 150px;
+    position: absolute;
+    top: 27px;
+    left: 290px;
+}
+
+.partner {
+    background-color: #353535;
+    width: 150px;
+    position: absolute;
+    top: 27px;
+    left: 440px;
+}
+
+.trip, .servis, .partner {
+    display: none;
+}
+
+.nav li:hover>ul.trip, .nav li:hover>ul.servis, .nav li:hover>ul.partner {
+    display: block;
+}
+
+
+/*/content/*/
+
+.content {
+    width: 1000px;
+    height: 550px;
+    background-color: #fff;
+}
+
+.info {
+    overflow: hidden;
+    float: left;
+    width: 21%;
+    border-right: 1px solid #ccc;
+    height: 545px;
+    background-color: #eee;
+}
+
+h3 {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    color: #444;
+    line-height: 30px;
+}
+
+.news {
+    overflow: hidden;
+    float: right;
+    width: 21%;
+    border-left: 1px solid #ccc;
+    height: 545px;
+    background-color: #eee;
+}
+
+.copyright {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 400px;
+}
