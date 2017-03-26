@@ -1,8 +1,6 @@
 body {
-    background: linear-gradient(to bottom, #138aa7,
-       #138aa7 66px, #5ef0ff 66px,
-       #fdfeff 212px, #40c5d3 212px, #0c739f 1250px);
-    }
+    background: linear-gradient(to bottom, #138aa7, #138aa7 66px, #5ef0ff 66px, #fdfeff 212px, #40c5d3 212px, #0c739f 1250px);
+}
 
 .wrapper {
     display: block;
@@ -11,7 +9,8 @@ body {
     margin-top: 40px;
     width: 1000px;
     height: 100%;
-    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 1);
+    border-bottom: 3px solid #000;
 }
 
 
@@ -44,7 +43,10 @@ body {
     color: #128aa7;
     margin-top: 10px;
     margin-right: 32px;
-    margin-bottom: 15px;
+    margin-bottom: 28px;
+    font-family: Tahoma, sans-serif;
+    opacity: 0.8;
+    font-size: 12px;
 }
 
 .contact h4 {
@@ -101,7 +103,7 @@ h4, li {
 .nav>ul>li {
     float: left;
     width: 142px;
-    height: 25px;
+    height: 20px;
     color: white;
     padding-top: 5px;
 }
@@ -110,6 +112,8 @@ h4, li {
     display: block;
     margin: 0;
     padding-bottom: 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
     text-decoration: none;
     color: white;
 }
@@ -118,10 +122,12 @@ h4, li {
     cursor: pointer;
     padding-top: 5px;
 }
+
 .triangle {
-  padding-top: 9px;
-  padding-left: 5px;
+    padding-top: 9px;
+    padding-left: 5px;
 }
+
 
 /*dropping down menu*/
 
@@ -130,7 +136,7 @@ h4, li {
     width: 150px;
     position: absolute;
     top: 27px;
-    left: 140px;
+    left: 133px;
 }
 
 .trip a, .servis a, .partner a {
@@ -146,7 +152,7 @@ h4, li {
     width: 150px;
     position: absolute;
     top: 27px;
-    left: 290px;
+    left: 275px;
 }
 
 .partner {
@@ -154,7 +160,7 @@ h4, li {
     width: 150px;
     position: absolute;
     top: 27px;
-    left: 440px;
+    left: 417px;
 }
 
 .trip, .servis, .partner {
@@ -179,11 +185,13 @@ h4, li {
     float: left;
     width: 21%;
     border-right: 1px solid #ccc;
-    height: 545px;
+    height: 550px;
     background-color: #eee;
 }
 
 h3 {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -192,8 +200,8 @@ h3 {
 p {
     font-size: 14px;
     font-family: Tahoma, sans-serif;
-    color: #444;
-    line-height: 30px;
+    color: #424242;
+    line-height: 24px;
 }
 
 .news {
@@ -201,7 +209,7 @@ p {
     float: right;
     width: 21%;
     border-left: 1px solid #ccc;
-    height: 545px;
+    height: 550px;
     background-color: #eee;
 }
 
