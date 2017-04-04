@@ -4,11 +4,6 @@ background-size: cover;
 background-position: center center;
 background-attachment: fixed;
 
-/*min-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;*/
 }
 
 .wrapper {
@@ -32,6 +27,8 @@ align-items: center;*/
   align-items: center;
   height: 36px;
   background-color: #065090;
+  font-size: 14px;
+  font-family: Tahoma, sans-serif;
 }
 ul>li {
 display: inline-block;
@@ -44,7 +41,7 @@ ul>li>a{
   color: #60b5ed;
   padding-top: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-left: 10px;
 }
 ul>li>a:hover {
@@ -115,9 +112,9 @@ label.click {
   margin-top: 35px;
   margin-bottom: 20px;
 }
-.button_f:hover {
+/*.button_f:hover {
   box-shadow: 0 0 5px 5px #5690ba;
-}
+}*/
 
 .codastre {
   margin-top: 22px;
