@@ -3,8 +3,16 @@ background: url('../img/background.png') no-repeat;
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
+min-width: 100vh;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 
 /*navigation bar*/
 .menu{
@@ -55,7 +63,7 @@ label.click {
 
 .radio1:not(checked),
 .radio2:not(checked) {
-  
+
   display: none;
 }
 .radio1:checked + .click1 {
@@ -77,11 +85,11 @@ label.click {
 /*Forma*/
 
 .wrapper2 {
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -250px;
-  margin-left: -275px;
+  margin-left: -275px;*/
   width: 560px;
   height: 627px;
   }
