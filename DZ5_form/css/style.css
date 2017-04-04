@@ -3,10 +3,11 @@ background: url('../img/background.png') no-repeat;
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
-min-width: 100vh;
+
 }
 
 .wrapper {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,13 +86,8 @@ label.click {
 /*Forma*/
 
 .wrapper2 {
-  /*position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -250px;
-  margin-left: -275px;*/
   width: 560px;
-  height: 627px;
+  flex-grow: 1;
   }
 .roof,
 .forma {
